@@ -1,0 +1,28 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.16/tailwind.min.css';
+
+/* Custom styles for TweetDropAccess */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.header {
+  @apply text-2xl font-bold mb-4;
+}
+
+.login-button {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+}
+
+.user-actions {
+  @apply mt-4;
+}
+
+.nft-drop-info {
+  @apply mt-4;
+}
+
+.access-status {
+  @apply mt-4;
+}
