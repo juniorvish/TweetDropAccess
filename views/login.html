@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - TweetDropAccess</title>
+    <link rel="stylesheet" href="/public/css/tailwind.css">
+</head>
+<body>
+    <div class="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-md w-full space-y-8">
+            <div>
+                <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
+                    Sign in with your Twitter account
+                </h2>
+                <p class="mt-2 text-center text-sm text-gray-600">
+                    To access the NFT drop, please authenticate using your Twitter account and complete the required actions.
+                </p>
+            </div>
+            <div class="mt-8 space-y-6">
+                <div class="flex items-center justify-center">
+                    <button id="login-button" class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                        <span class="absolute left-0 inset-y-0 flex items-center pl-3">
+                            <svg class="h-5 w-5 text-blue-500 group-hover:text-blue-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M7.707 3.293a1 1 0 010 1.414L5.414 7l2.293 2.293a1 1 0 01-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                <path fill-rule="evenodd" d="M4 9a1 1 0 011-1h11a1 1 0 110 2H5a1 1 0 01-1-1z" clip-rule="evenodd" />
+                            </svg>
+                        </span>
+                        Sign in with Twitter
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/public/js/auth.js"></script>
+</body>
+</html>
